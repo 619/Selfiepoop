@@ -2,21 +2,48 @@
 //  AppDelegate.swift
 //  Firebase podtest
 //
-//  Created by Bobby Zhang on 2017-07-30.
+//  Created by Bobby Zhang on 2017-09-16.
 //  Copyright © 2017 bobby. All rights reserved.
 //
 
 import UIKit
 
+import Foundation
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var vc = ARViewController()
 
+    
+    override init() {
+        
+        
 
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        InstantSearch.shared.configure(appID: "4RBP427QEJ", apiKey: "a8691d2508e128be80e95fdbd60df4d8", index: "holograms")
+//        InstantSearch.shared.params.attributesToRetrieve = ["title", "desc", "tags", "username"]
+//        InstantSearch.shared.params.attributesToHighlight = ["title", "desc", "tags"]
+//
+//        NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+//
+//        // Override point for customization after application launch.
         return true
+    }
+    
+    @objc func rotated() {
+        if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
+            print("Landscape")
+        }
+        
+        if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
+            print("Portrait")
+        }
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -30,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        //vc.resetTracking()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

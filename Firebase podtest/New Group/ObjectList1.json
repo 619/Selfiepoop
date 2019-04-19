@@ -1,0 +1,28 @@
+[
+    {
+        "modelName": "candle",
+        "displayName": "Candle",
+        "particleScaleInfo": {"flame": 0.018 }
+    },
+    {
+        "modelName": "cup",
+        "displayName": "Cup",
+        "particleScaleInfo": { }
+    },
+    {
+        "modelName": "vase",
+        "displayName": "Vase",
+        "particleScaleInfo": { }
+    },
+    {
+        "modelName": "rainbowTree",
+        "displayName": "Chair",
+        "particleScaleInfo": { }
+    },
+    {
+         "modelName": "rainbowTree",
+         "displayName": "Lamp",
+         "particleScaleInfo": { }
+ },
+]
+ 

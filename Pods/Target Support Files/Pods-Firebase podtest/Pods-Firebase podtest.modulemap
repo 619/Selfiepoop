@@ -1,0 +1,6 @@
+framework module Pods_Firebase_podtest {
+  umbrella header "Pods-Firebase podtest-umbrella.h"
+
+  export *
+  module * { export * }
+}

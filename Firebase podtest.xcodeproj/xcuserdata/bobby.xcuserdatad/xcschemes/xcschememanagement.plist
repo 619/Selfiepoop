@@ -7,7 +7,25 @@
 		<key>Firebase podtest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C5CB387D1F2EB58400F97ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5CB38911F2EB58400F97ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5CB389C1F2EB58400F97ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
