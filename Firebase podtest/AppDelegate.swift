@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-//        InstantSearch.shared.configure(appID: "4RBP427QEJ", apiKey: "a8691d2508e128be80e95fdbd60df4d8", index: "holograms")
+//        InstantSearch.shared.configure(appID: "4RBP427QEJ", index: "holograms")
 //        InstantSearch.shared.params.attributesToRetrieve = ["title", "desc", "tags", "username"]
 //        InstantSearch.shared.params.attributesToHighlight = ["title", "desc", "tags"]
 //
